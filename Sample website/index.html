@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna College Student Package</title>
+</head>
+<body>
+     <h2>Create an Account</h2>
+    <main>
+        <form action="welcome.html" method="POST">
+        <div>
+            <label for="fullname">Fullname: </label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter fullname" autocomplete="name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password" minlength="8" placeholder="Atleast 8 characters" autocomplete="new-password" required> 
+        </div>
+
+        <br>
+
+        <div>
+            <label for="confirm-password">Confirm-Password: </label>
+            <input type="password" id="confirm-password" name="confirm-password" minlength="8" autocomplete="new-password" required> 
+        </div>
+
+        <br>
+
+        <div>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to Terms and Conditions</label>
+        </div>
+        
+        <br>
+
+        <button type="submit">Sign Up</button>
+    </form>
+
+    </main>
+</body>
+</html>
