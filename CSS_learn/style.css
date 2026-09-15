@@ -1,12 +1,23 @@
-#box{
-    background-color: black;
-    color: greenyellow;
+#heading{
+    text-align: center;
+    text-transform: capitalize;
 }
 
-.heading{
-    color: red;
+*{
+    font-family: Times New Roman;
 }
 
-button{
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
+
+#PS3{
+    height: 100px;
+    width: 100px;
     background-color: green;
+    border-radius: 110px;
 }
