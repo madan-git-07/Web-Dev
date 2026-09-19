@@ -31,10 +31,6 @@
     color: white;
 }
 
-button{
-    background-color: #f08804;
-}
-
 #logo{
     color: #f08804;
     font-size: 25px;
@@ -44,4 +40,9 @@ a {
     margin-right: 200px;
     text-decoration: none;
     color: white;
+}
+
+#heading{
+    text-align: center;
+    text-transform: capitalize;
 }
